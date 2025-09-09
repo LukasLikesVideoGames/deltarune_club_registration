@@ -1,2 +1,2 @@
 # deltarune_club_registration
-DELTARUNE Club Registration Form
+Form used to register for the DELTARUNE club at PixelForge Academy.
