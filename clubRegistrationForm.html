@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- THIS IS REQUIRED FOR YOUR GRADES IN THE FUTURE -->
+    <meta name="author" content="Lukas Ebarb">
+    <meta name="description" content="West-MEC coding student and certified gamer who loves DELTARUNE.">
+    <meta property="og:image" content="https://i.pinimg.com/736x/eb/3c/97/eb3c97f6acc733cd62261987e40692d0.jpg">
+    <meta property="og:title" content="DELTARUNE Club Registration Form">
+    <meta property="og:description" content="Form used to register for the DELTARUNE club at PixelForge Academy.">
+    <meta property="og:site_name" content="">
+    <meta property="og:type" content="form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELTARUNE Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Deltarune Favicon/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>DELTARUNE Club Registration Form</h1>
+        <p><em>Required Fields are followed by </em><strong><abbr title="required">*</abbr></strong>.</p>
+        <h2>Description:</h2>
+        <span>Welcome to the Deltarune Club, a community for fans of DELTARUNE, the hit RPG by Toby Fox, creator of Undertale. Whether you're a longtime fan or just discovering the game, this club is your gateway into the strange, funny, and heartfelt world of Kris, Susie, Ralsei, and all the unforgettable characters of the Dark World. Determined? In a trance? Full of eggs? You’ll fit right in.</span>
+        <h4>What to look forward to:</h4>
+        <ul>
+            <li>Discussing and analyzing chapters 1-4</li>
+            <li>Exploring game mechanics, secrets, and lore</li>
+            <li>Sharing fan art, music, theories, and cosplay</li>
+            <li>Hosting playthrough sessions, voice readings, and theory nights</li>
+            <li>Debating the BIG (SHOT) questions with each other</li>
+        </ul>
+    </header>
+    <main>
+        <form action="method">
+            <hr>
+            <section>
+                <h2>Personal Information</h2>
+                <p>
+                    <label for="firstname">
+                        <span>First Name:</span>
+                        <strong>
+                            <abbr title="required">*</abbr>
+                        </strong>
+                    </label>
+                    <input type="text" id="firstName" name="username">
+                </p>
+                <p>
+                    <label for="lastName">
+                        <span>Last Name:</span>
+                        <strong>
+                            <abbr title="required">*</abbr>
+                        </strong>
+                    </label>
+                    <input type="text" id="lastName" name="surname">
+                </p>
+                <p>
+                <label for="email">
+                    <span>Email:</span>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
+                </label>
+                <input type="email" id="email" name="useremail">
+                </p>
+                <p>
+                <label for="gradeLevel">
+                    <span>Grade Level (9-12)</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="number" id="gradeLevel" name="grade">
+                </p>
+            </section>
+            <hr>
+            <section>
+                <h2>Club Preferences</h2>
+                <fieldset>
+                    <legend>Preferred Meeting Time <strong><abbr title="required">*</abbr></strong></legend>
+                    <ul>
+                        <li><label><input type="radio" name="time"> Morning</label></li>
+                        <li><label><input type="radio" name="time"> Lunch</label></li>
+                        <li><label><input type="radio" name="time"> After School</label></li>
+                    </ul>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Skills or Interests <em>(choose at least 3 options)</em></legend>
+                    <ul>
+                        <li><label><input type="checkbox" name="skills"> Coding</label></li>
+                        <li><label><input type="checkbox" name="skills"> Animation</label></li>
+                        <li><label><input type="checkbox" name="skills"> Storytelling</label></li>
+                        <li><label><input type="checkbox" name="skills"> Game Design</label></li>
+                        <li><label><input type="checkbox" name="skills"> Teamwork</label></li>
+                        <li><label><input type="checkbox" name="skills"> Creativity</label></li>
+                        <li><label><input type="checkbox" name="skills"> Integrity</label></li>
+                    </ul>
+                </fieldset>
+                <p>
+                <label for="size">T-Shirt Size:</label>
+                <strong><abbr title="required">*</abbr></strong>
+                <select name="shirtSize" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                    <option value="extraLarge">XL</option>
+                </select>
+                </p>
+                <p>
+                    <label for="question">Why do you want to join the club?</label>
+                    <br>
+                    <textarea name="question" id="questionAnswer" cols="30" rows="5"></textarea>
+                </p>
+            </section>
+            <hr>
+            <section>
+                <p>
+                    <button type="submit">Send Form</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </section>
+        </form>
+    </main>
+    <footer>
+        <p>
+            <em>Form will be reviewed by the club advisor.</em>
+        </p>
+        <p>
+            <strong><em>"Beyond what’s seen, beneath what’s known — the truth of your path awaits." —Unknown (possibily Gaster?)</em></strong>
+        </p>
+    </footer>
+</body>
+</html>
